@@ -78,6 +78,10 @@ Before capturing traffic, the following networking concepts were studied:
 
 [View Full GIF](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/ipv4-ipv6.gif)
 
+![Differences Between IPv4 and IPv6](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/differences_between_IPv4_vs_IPv6-min-1536x1492.png)
+
+[View Full Image](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/differences_between_IPv4_vs_IPv6-min-1536x1492.png)
+
 - **MAC Address**: A hardware address used to identify devices at the data link layer.
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
