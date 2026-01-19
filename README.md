@@ -14,10 +14,59 @@ The objective of this project is to understand basic networking concepts and dev
 
 ### Primary Tool
 - Wireshark
-
+- - Comprehensive Network Analysis. Wireshark is a powerful, open-source network protocol analyzer that allows users to capture and interactively browse the traffic running on a computer network, providing deep inspection of hundreds of protocols.
+  - 
 ### Alternative Tools (Optional)
 - tcpdump
-- Microsoft Network Monitor
+- - `tcpdump` is a powerful, command-line packet analyzer that captures and displays network traffic (TCP/IP, UDP, ICMP, etc.) passing through a network interface, allowing users to filter, troubleshoot network issues, monitor activity, and analyze security events in real-time or from saved capture files.
+## Key Functions & Uses
+
+### Network Troubleshooting
+- Identify slow services or connectivity problems by examining packet flows.
+
+### Security Monitoring
+- Detect suspicious traffic, unauthorized access, or unencrypted data breaches.
+
+### Protocol Analysis
+- Perform deep analysis of packet headers and payloads for various protocols such as:
+  - TCP
+  - UDP
+  - ICMP
+
+---
+
+## How It Works
+
+### Capture
+- Intercepts packets from a network interface (e.g., `eth0`, `enp0s3`)  
+- Can also read packets from an existing capture file
+
+### Filtering
+- Uses **Berkeley Packet Filter (BPF)** expressions to limit captured traffic  
+- Example filters:
+  - `host <name>`
+  - `port <num>`
+  - `tcp`
+
+Filtering helps make the output manageable and relevant.
+
+### Output
+- Displays packet details such as headers and timestamps in the console
+- Saves packet data to a `.pcap` file for later analysis using tools like:
+  - `tcpdump`
+  - Wireshark
+
+---
+
+## Common Examples
+
+``bash
+`tcpdump -i eth0`
+`tcpdump port 80`
+`tcpdump host 192.168.1.1 and port 22`
+`tcpdump -w capture.pcap`
+`tcpdump -r capture.pcap`
+- - 
 
 ---
 
