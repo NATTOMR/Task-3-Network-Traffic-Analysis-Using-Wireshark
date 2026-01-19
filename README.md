@@ -118,6 +118,13 @@ Before capturing traffic, the following networking concepts were studied:
 [View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/broadcast.jpg)
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
+- -  TCP (Transmission Control Protocol) is a protocol that allows devices to communicate reliably over a network. It ensures that data reaches the destination correctly and in the right order
+- - 1. Connection Establishment (Three-Way Handshake)
+TCP is connection-orientated, meaning a connection must be established before any data is sent. This is done using a three-way handshake:
+
+- - SYN (Synchronize): The sender sends a SYN segment to the receiver to request a connection.
+SYN-ACK (Synchronize-Acknowledge): The receiver responds with a SYN-ACK segment, acknowledging the request and agreeing to the connection.
+ACK (Acknowledge): The sender replies with an ACK, confirming the connection is established.
 - **UDP (User Datagram Protocol)**: Fast, connectionless protocol.
 
 ---
