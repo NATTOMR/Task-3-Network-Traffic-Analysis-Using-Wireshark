@@ -84,7 +84,9 @@ Before capturing traffic, the following networking concepts were studied:
 - 1. Logical Link Control (LLC) Sublayer
 - 2. Media Access Control (MAC) Sublayer
      ## MAC Adress
-     
+     ![MAC]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
+
+[View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
 - **UDP (User Datagram Protocol)**: Fast, connectionless protocol.
