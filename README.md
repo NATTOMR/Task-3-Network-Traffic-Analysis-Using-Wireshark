@@ -1,5 +1,3 @@
-# Task-3-Network-Traffic-Analysis-Using-Wireshark
-
 ## Project Title
 **Network Traffic Analysis Using Wireshark**
 
@@ -48,8 +46,6 @@ The objective of this project is to understand basic networking concepts and dev
   - `port <num>`
   - `tcp`
 
-Filtering helps make the output manageable and relevant.
-
 ### Output
 - Displays packet details such as headers and timestamps in the console
 - Saves packet data to a `.pcap` file for later analysis using tools like:
@@ -83,6 +79,12 @@ Before capturing traffic, the following networking concepts were studied:
 [View Full Image](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/differences_between_IPv4_vs_IPv6-min-1536x1492.png)
 
 - **MAC Address**: A hardware address used to identify devices at the data link layer.
+- MAC Addresses are unique 48-bit hardware numbers of a computer that are embedded into a network card (known as a Network Interface Card) during manufacturing. The MAC Address is also known as the Physical Address of a network device. In the IEEE 802 standard, the data link layer is divided into two sublayers:
+
+- 1. Logical Link Control (LLC) Sublayer
+- 2. Media Access Control (MAC) Sublayer
+     ## MAC Adress
+     
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
 - **UDP (User Datagram Protocol)**: Fast, connectionless protocol.
