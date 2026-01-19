@@ -53,19 +53,19 @@ Filtering helps make the output manageable and relevant.
 ### Output
 - Displays packet details such as headers and timestamps in the console
 - Saves packet data to a `.pcap` file for later analysis using tools like:
-  - `tcpdump`
-  - Wireshark
+- `tcpdump`
+- Wireshark
 
 ---
 
 ## Common Examples
 
 ``bash
-`tcpdump -i eth0`
-`tcpdump port 80`
-`tcpdump host 192.168.1.1 and port 22`
-`tcpdump -w capture.pcap`
-`tcpdump -r capture.pcap`
+- `tcpdump -i eth0`
+- `tcpdump port 80`
+- `tcpdump host 192.168.1.1 and port 22`
+- `tcpdump -w capture.pcap`
+- `tcpdump -r capture.pcap`
 - - 
 
 ---
@@ -74,6 +74,7 @@ Filtering helps make the output manageable and relevant.
 Before capturing traffic, the following networking concepts were studied:
 
 - **IP Address**: A unique identifier assigned to a device on a network.
+- 
 - **MAC Address**: A hardware address used to identify devices at the data link layer.
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
