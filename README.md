@@ -117,6 +117,9 @@ Before capturing traffic, the following networking concepts were studied:
 
 [View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/broadcast.jpg)
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
+- The Domain Name System (DNS) is a hierarchical and distributed naming system that translates human-readable domain names into IP addresses, enabling users to access websites easily.
+
+  
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
 - -  TCP (Transmission Control Protocol) is a protocol that allows devices to communicate reliably over a network. It ensures that data reaches the destination correctly and in the right order
 - ##  1. Connection Establishment (Three-Way Handshake)
