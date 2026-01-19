@@ -90,18 +90,32 @@ Before capturing traffic, the following networking concepts were studied:
      ![MAC]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
 
 [View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
+## Format of MAC Address
+- To understand what is MAC address is, it is very important that first you understand the format of the MAC Address. So a MAC Address is a 12-digit hexadecimal number (48-bit binary number), which is mostly represented by Colon-Hexadecimal notation.
 
+- The First 6 digits (say 00:40:96) of the MAC Address identify the manufacturer, called the OUI (Organizational Unique Identifier). IEEE Registration Authority Committee assigns these MAC prefixes to its registered vendors. 
 
+  - As discussed above, the MAC address is represented by Colon-Hexadecimal notation. But this is just a conversion, not mandatory. MAC address can be represented using any of the following formats:
  ![mac-notaion](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac-notation.jpg)
 
 [View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac-notation.jpg)
+
+## 1. Unicast: A Unicast-addressed frame is only sent out to the interface leading to a specific NIC. If the LSB (least significant bit) of the first octet of an address is set to zero, the frame is meant to reach only one receiving NIC. The MAC Address of the source machine is always Unicast. 
 
 
  ![unicast](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/unicast.jpg)
 
 [View Full Image](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/unicast.jpg)
 
+## 2. Multicast: The multicast address allows the source to send a frame to a group of devices. In Layer-2 (Ethernet) Multicast address, the LSB (least significant bit) of the first octet of an address is set to one. IEEE has allocated the address block 01-80-C2-xx-xx-xx (01-80-C2-00-00-00 to 01-80-C2-FF-FF-FF) for group addresses for use by standard protocols. 
+ ![multicast](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/MULTICAST.jpg)
 
+[View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/MULTICAST.jpg)
+## 3. Broadcast: Similar to Network Layer, Broadcast is also possible on the underlying layer( Data Link Layer). Ethernet frames with ones in all bits of the destination address (FF-FF-FF-FF-FF-FF) are referred to as the broadcast addresses. Frames that are destined with MAC address FF-FF-FF-FF-FF-FF will reach every computer belonging to that LAN segment. 
+
+ ![broadcast](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/broadcast.jpg)
+
+[View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/broadcast.jpg)
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
 - **UDP (User Datagram Protocol)**: Fast, connectionless protocol.
