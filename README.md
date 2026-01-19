@@ -69,7 +69,10 @@ The objective of this project is to understand basic networking concepts and dev
 ## 3. Basic Networking Concepts
 Before capturing traffic, the following networking concepts were studied:
 
+
 - **IP Address**: A unique identifier assigned to a device on a network.
+
+  
 - ![IPv4 vs IPv6 Packet Comparison](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/ipv4-ipv6.gif)
 
 [View Full GIF](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/ipv4-ipv6.gif)
@@ -87,6 +90,18 @@ Before capturing traffic, the following networking concepts were studied:
      ![MAC]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
 
 [View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac.jpg)
+
+
+ ![mac-notaion](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac-notation.jpg)
+
+[View Full Image]( https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/mac-notation.jpg)
+
+
+ ![unicast](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/unicast.jpg)
+
+[View Full Image](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/unicast.jpg)
+
+
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
 - **UDP (User Datagram Protocol)**: Fast, connectionless protocol.
