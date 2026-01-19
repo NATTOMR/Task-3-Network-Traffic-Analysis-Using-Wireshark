@@ -1,5 +1,4 @@
 # Task-3-Network-Traffic-Analysis-Using-Wireshark
-# Task 3: Networking Basics for Cyber Security
 
 ## Project Title
 **Network Traffic Analysis Using Wireshark**
