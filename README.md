@@ -74,7 +74,7 @@ Filtering helps make the output manageable and relevant.
 Before capturing traffic, the following networking concepts were studied:
 
 - **IP Address**: A unique identifier assigned to a device on a network.
-- 
+- [image](https://github.com/NATTOMR/Task-3-Network-Traffic-Analysis-Using-Wireshark/blob/main/ipv4-ipv6.gif)
 - **MAC Address**: A hardware address used to identify devices at the data link layer.
 - **DNS (Domain Name System)**: Translates domain names into IP addresses.
 - **TCP (Transmission Control Protocol)**: Reliable, connection-oriented protocol.
